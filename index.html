@@ -90,23 +90,25 @@
                     <div class="dropdown dropdown-hover lg:hidden ">
                         <label tabindex="0" class="btn m-1 text-2xl"><i class="fa-solid fa-bars"></i></label>
                         <ul tabindex="0" class="dropdown-content z-[1] menu p-2 w-80">
-                            <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All Fruits</a></li>
+                            <li class="bg-white"><a>Home</a></li>
+                            <li class="bg-white"><a>About Us</a></li>
+                            <li class="bg-white"><a>Shop</a></li>
+                            <li class="bg-white"><a>All Fruits</a></li>
                         </ul>
                     </div>
                 </div>
+
             </div>
         </nav>
 
         <!-- slider section -->
-        <section class="mb-20  ">
+        <section class=" container px-14 ">
             <div class="carousel w-full">
 
                 <!-- slider 1 -->
-                <div id="slide1" class="carousel-item relative w-full bg-cover bg-center h-[500px]"
-                    style="background-image: url('images/banner1.png');">
+                <div id="slide1" class="carousel-item relative w-full bg-cover bg-center  h-[350px] lg:h-[470px]"
+                    style="background-image: url('images/banner1.png'); ">
+
 
                     <div class="mx-auto text-center text-white pt-20">
                         <h1 class="text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
@@ -116,14 +118,29 @@
                             Now
                         </button>
                     </div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 ">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
+
+                    <!-- slider lower part -->
+                    <div
+                        class="hidden lg:flex absolute -bottom-10 left-64 w-3/5 justify-center drop-shadow-md bg-white">
+                        <img src="images/fruit1.png" alt="">
+                        <img src="images/fruit2.png" alt="">
+                        <img src="images/fruit3.png" alt="">
+                        <img src="images/fruit4.png" alt="">
+                        <img src="images/fruit5.png" alt="">
+                    </div>
+                    
+
                 </div>
+                
+
 
                 <!-- slider 2 -->
-                <div id="slide2" class="carousel-item relative w-full bg-cover bg-center h-[500px]"
+                <div id="slide2" class="carousel-item relative w-full bg-cover bg-center h-[350px] lg:h-[470px]"
                     style="background-image: url('images/banner2.png');">
 
                     <div class="mx-auto text-center text-white pt-20">
@@ -139,10 +156,21 @@
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
+
+
+                    <!-- slider lower part -->
+                    <div
+                        class="hidden lg:flex absolute -bottom-10 left-64 w-3/5 justify-center drop-shadow-md bg-white">
+                        <img src="images/fruit1.png" alt="">
+                        <img src="images/fruit2.png" alt="">
+                        <img src="images/fruit3.png" alt="">
+                        <img src="images/fruit4.png" alt="">
+                        <img src="images/fruit5.png" alt="">
+                    </div>
                 </div>
 
                 <!-- slider 3 -->
-                <div id="slide3" class="carousel-item relative w-full bg-cover bg-center h-[500px]"
+                <div id="slide3" class="carousel-item relative w-full bg-cover bg-center h-[350px] lg:h-[470px]"
                     style="background-image: url('images/banner3.png');">
 
                     <div class="mx-auto text-center text-white pt-20">
@@ -157,10 +185,20 @@
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
+
+                    <!-- slider lower part -->
+                    <div
+                        class=" hidden lg:flex absolute -bottom-10 left-64 w-3/5 justify-center drop-shadow-md bg-white h-10vh">
+                        <img src="images/fruit1.png" alt="">
+                        <img src="images/fruit2.png" alt="">
+                        <img src="images/fruit3.png" alt="">
+                        <img src="images/fruit4.png" alt="">
+                        <img src="images/fruit5.png" alt="">
+                    </div>
                 </div>
 
                 <!-- slider 4 -->
-                <div id="slide4" class="carousel-item relative w-full bg-cover bg-center h-[500px]"
+                <div id="slide4" class="carousel-item relative w-full bg-cover bg-center h-[350px] lg:h-[470px]"
                     style="background-image: url('images/banner4.png');">
 
                     <div class="mx-auto text-center text-white pt-20">
@@ -176,6 +214,16 @@
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
+
+                    <!-- slider lower part -->
+                    <div
+                        class=" hidden lg:flex absolute -bottom-10 left-64 w-3/5 justify-center drop-shadow-md bg-white h-10vh">
+                        <img src="images/fruit1.png" alt="">
+                        <img src="images/fruit2.png" alt="">
+                        <img src="images/fruit3.png" alt="">
+                        <img src="images/fruit4.png" alt="">
+                        <img src="images/fruit5.png" alt="">
+                    </div>
                 </div>
 
             </div>
@@ -185,7 +233,7 @@
     <main class="container mx-auto justify-center lg:px-20">
 
         <!-- Deal section -->
-        <section class="container mx-auto justify-center">
+        <section class="mt-20 ">
 
             <!-- deal desc -->
             <div class="lg:flex justify-between mb-12">
@@ -633,7 +681,7 @@
         <section class="py-24">
 
             <div class="text-center pb-10">
-                <h2 class="text-3xl font-semibold pb-5">Why Choose Us</h2>
+                <h2 class="text-5xl font-semibold pb-5">Why Choose Us</h2>
                 <p class="pb-8">Contrary to popular belief, is not simply random text. It has roots in a piece of
                     classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
@@ -717,6 +765,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
     </main>
